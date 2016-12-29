@@ -1,22 +1,21 @@
+<import src="../../component/invitations/special/special.wxml"/>
+
 <!--index.wxml-->
-<view class="container">
-  <view class="container-at">
-    <view class="title">特别邀请</view>
-    <view class="items">
-      <view class="invitation" style="width:{{(systemInfo.windowWidth-40)/3}}px;height: {{(systemInfo.windowWidth-40)/3*300/200}}px;">
-        <image class="avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-        <view class="name">{{userInfo.nickName}}</view>
-        <view class="info">{{info}}</view>
-        <button>查看详情</button>
-      </view>
-      <view class="invitation" style="width:{{(systemInfo.windowWidth-40)/3}}px;height: {{(systemInfo.windowWidth-40)/3*300/200}}px;">
-      </view>
-      <view class="invitation" style="width:{{(systemInfo.windowWidth-40)/3}}px;height: {{(systemInfo.windowWidth-40)/3*300/200}}px;">
-      </view>
+
+<view class="specialInivitations infoBox" hidden="{{!(invitations.special.length > 0)}}">
+  <view class="container">
+    <view class="infoBar">
+      <view class="title">特别邀请</view>
+      <button class="more">查看更多</button>
     </view>
   </view>
-
-  <view class="container-all">
+  <scroll-view class="items" scroll-x="true" scroll-left="80">
+    <template is="specialInvitation" data="{{data: item}}" wx:for="{{invitations.special}}" wx:key="unique" />
+    <template is="specialInvitation" data="{{data: item}}" wx:for="{{invitations.special}}" wx:key="unique" />
+  </scroll-view>
+</view>
+<view class="container">
+  <view class="infoBar invitations">
     <view class="title">全部邀请</view>
     <view class="items">
       <view class="invitation">

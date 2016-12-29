@@ -1,60 +1,58 @@
+@import "../../component/invitations/special/special.wxss";
+
 /**index.wxss**/
-.container-at {
+.infoBox {
   width: 100%;
   margin-bottom: 30rpx;
 }
-.container-at .title {
+.infoBox .infoBar {
+  display: flex;
+  align-content:center;
+  padding-top: 20rpx;
+}
+.infoBox .infoBar .title {
   font-size: 12px;
-  margin-bottom: 20rpx;
-}
-
-.container-at .items {
-  display: flex;
-  justify-content: space-between;
-}
-.container-at .items .invitation {
-  background-color: #eee;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.container-at .items .invitation .avatar {
-  width: 130rpx;
-  height: 130rpx;
-  border-radius: 50%;
-  margin-top: 20rpx;
-}
-.container-at .items .invitation .name {
-  margin-top: 20rpx;
-  font-size: 16px;
   font-weight: 600;
+  flex: 1;
+  margin-bottom: 20rpx;
+  line-height: 1.2;
 }
-.container-at .items .invitation .info {
+.infoBox .infoBar .more {
+  width: 80px;
+  background-color: transparent;
+  text-align: right;
   font-size: 12px;
-  font-weight: 200;
-  color: #999;
-  margin-top: 10rpx;
-}
-.container-at .items .invitation button {
-  font-size: 12px;
-  margin-top: 20rpx;
+  line-height: 1.2;
+  padding: 0;
+  color: #aaa;
+  font-weight: lighter;
 }
 
-.container-all {
+.infoBox .infoBar .more:after {
+  background-color: transparent;
+  border: none;
+}
+
+.specialInivitations .items {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.invitations {
   width: 100%;
 }
-.container-all .title {
+.invitations .title {
   font-size: 12px;
   margin-bottom: 20rpx;
 }
-.container-all .invitation {
+.invitations .invitation {
   width: 100%;
   position: relative;
   height: 220rpx;
   background-color: #eee;
   margin-bottom: 20rpx;
 }
-.container-all .invitation .avatar {
+.invitations .invitation .avatar {
   width: 150rpx;
   height: 100%;
   display: inline-flex;
@@ -62,12 +60,12 @@
   align-items: center;
   margin-left: 10rpx;
 }
-.container-all .invitation .avatar image {
+.invitations .invitation .avatar image {
   width: 150rpx;
   height: 140rpx;
   border-radius: 50%;
 }
-.container-all .invitation .info {
+.invitations .invitation .info {
   display: inline-block;
   vertical-align: top;
 }

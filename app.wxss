@@ -2,3 +2,20 @@
 .container {
   margin: 10rpx 20rpx;
 }
+
+page {
+  background-color: #fafafa;
+}
+
+button {
+  background-color: #FA4646;
+  color: white;
+  font-size: 16px;
+  border-radius: 3px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+
+button:after {
+  border: none;
+}

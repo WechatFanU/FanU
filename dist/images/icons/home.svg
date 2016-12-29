@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="30px" viewBox="0 0 33 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>我</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UX/Element/Icons/我" transform="translate(-1.000000, 0.000000)">
+            <g id="我" transform="translate(0.640115, 0.611191)">
+                <polyline id="XMLID_40_" stroke="#040000" points="27.3130518 17.8269727 27.3130518 28.8482066 6.24443378 28.8482066 6.24443378 17.8269727"></polyline>
+                <polyline id="XMLID_38_" stroke="#040000" points="0.406142035 16.3032999 16.8548944 0.203156385 33.1513436 16.3032999"></polyline>
+                <path d="M12,17.8269727 L12,24.1756098" id="XMLID_2_" stroke="#000000"></path>
+                <path d="M21,17.8269727 L21,24.1756098" id="XMLID_1_" stroke="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

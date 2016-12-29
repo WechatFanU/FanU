@@ -1,0 +1,17 @@
+<!--
+  data:
+    avatar
+    name
+    time
+    foodType
+  systemInfo:
+    windowWidth
+-->
+<template name="specialInvitation">
+  <view class="specialInvitationBlock" >
+    <image class="avatar" src="{{data.avatar}}" background-size="cover"></image>
+    <view class="name">{{data.name}}</view>
+    <view class="info">{{data.time}} · {{data.foodType}}</view>
+    <button class="action">查看详情</button>
+  </view>
+</template>

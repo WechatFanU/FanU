@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="30px" viewBox="0 0 34 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>消息</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UX/Element/Icons/消息" transform="translate(0.000000, 1.000000)">
+            <g id="消息" transform="translate(0.996161, 0.417504)">
+                <path d="M32.440595,12.0878049 C32.440595,18.3856528 25.8915547,23.5661406 17.5148752,24.0740316 C17.0579655,24.1248207 16.1949136,24.1248207 16.1949136,24.1248207 L11.168906,27.5784792 L8.63051823,22.702726 C8.63051823,22.702726 7.91976967,22.3979914 7.61516315,22.2456241 C3.04606526,20.1124821 2.7000624e-12,16.354089 2.7000624e-12,12.0370158 C2.7000624e-12,5.38364419 7.25978887,5.68434189e-14 16.2456814,5.68434189e-14 C25.1300384,0.0507890961 32.440595,5.43443329 32.440595,12.0878049 Z" id="XMLID_21_" stroke="#000000"></path>
+                <path d="M11,7.8215208 L11,15.9477762" id="XMLID_41_" stroke="#040000"></path>
+                <path d="M21,7.8215208 L21,15.9477762" id="XMLID_39_" stroke="#040000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="33px" height="27px" viewBox="0 0 33 27" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>我的吃圈</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UX/Element/Icons/我的吃圈" stroke="#000000">
+            <g id="我的吃圈" transform="translate(0.655470, 0.585366)">
+                <ellipse id="XMLID_20_" cx="6.59980806" cy="6.75494978" rx="6.49827255" ry="6.5010043"></ellipse>
+                <path d="M7,25.5977044 L7,12.7480631" id="XMLID_16_"></path>
+                <path d="M17,0 L17,1.06657102 C17,7.05968436 20.299904,11.9354376 24.4120921,11.9354376 C28.5242802,11.9354376 31.8241843,7.05968436 31.8241843,1.06657102 L31.8241843,0" id="XMLID_15_"></path>
+                <path d="M22,0.304734577 L22,6.45021521" id="XMLID_19_"></path>
+                <path d="M27,0.304734577 L27,6.45021521" id="XMLID_17_"></path>
+                <path d="M24,25.9146341 L24,12" id="XMLID_14_"></path>
+            </g>
+        </g>
+    </g>
+</svg>

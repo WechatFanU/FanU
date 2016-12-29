@@ -1,0 +1,33 @@
+.specialInvitationBlock {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.02);
+    margin-left: 20rpx;
+    margin-bottom: 5px;
+    padding: 15px;
+}
+
+.specialInvitationBlock .avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0px auto 8px auto;
+    display: block;
+}
+
+.specialInvitationBlock .name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.specialInvitationBlock .info {
+  font-size: 14px;
+  font-weight: 300;
+  color: #999;
+  margin-top: 10rpx;
+}
+.specialInvitationBlock button {
+  margin-top: 25rpx;
+}

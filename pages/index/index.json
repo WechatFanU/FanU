@@ -1,3 +1,5 @@
 {
-   
+    "enablePullDownRefresh": true,
+    "navigationBarTitleText": "饭友",
+    "navigationBarTextStyle": "black"
 }

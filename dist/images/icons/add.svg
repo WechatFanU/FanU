@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="30px" viewBox="0 0 36 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>发布邀请</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UX/Element/Icons/发布邀请" transform="translate(0.000000, -1.000000)" stroke="#040000">
+            <g id="发布邀请" transform="translate(0.943378, 0.480631)">
+                <g id="XMLID_47_" transform="translate(26.399232, 0.905308)">
+                    <path d="M0,4 L8.63051823,4" id="XMLID_49_"></path>
+                    <path d="M4,0 L4,8.63414634" id="XMLID_50_"></path>
+                </g>
+                <g id="XMLID_51_" transform="translate(10.138196, 26.807747)">
+                    <path d="M0,2.74261119 L0,0.0507890961" id="XMLID_46_"></path>
+                    <path d="M13,2.74261119 L13,0.0507890961" id="XMLID_45_"></path>
+                </g>
+                <path d="M0.35537428,14.7199426 L0.35537428,15.2278336 C0.35537428,22.9985653 7.86900192,27.4680057 16.5502879,27.4680057 C25.2315739,27.4680057 32.7452015,22.9985653 32.7452015,15.2278336 L32.7452015,14.7199426 L0.35537428,14.7199426 Z" id="XMLID_48_"></path>
+                <path d="M3.45220729,14.7199426 L3.45220729,14.415208 C3.45220729,10.0473458 9.29049904,7 16.5502879,7 C23.8100768,7 29.6483685,10.0473458 29.6483685,14.415208 L29.6483685,14.7199426 L3.45220729,14.7199426 Z" id="XMLID_42_"></path>
+            </g>
+        </g>
+    </g>
+</svg>

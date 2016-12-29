@@ -7,40 +7,44 @@
   ],
   "window":{
     "backgroundTextStyle":"light",
+    "backgroundColor": "#FAFAFA",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "饭有FanU",
-    "navigationBarTextStyle":"black"
+    "navigationBarTitleText": "饭友",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "dark"
   },
+  "debug": true,
   "tabBar": {
-    "color": "#dddddd",
-    "selectedColor": "#3cc51f",
-    "borderStyle": "black",
+    "color": "#1d1d1d",
+    "selectedColor": "#fa4646",
+    "borderStyle": "white",
     "backgroundColor": "#ffffff",
     "list": [{
       "pagePath": "pages/index/index",
-      "iconPath": "images/icon_component.png",
-      "selectedIconPath": "images/icon_component_HL.png",
-      "text": "首页"
+      "iconPath": "dist/images/icons/cooker.png",
+      "selectedIconPath": "dist/images/icons/cooker@active.png",
+      "text": " 吃圈"
     }, {
       "pagePath": "pages/logs/logs",
-      "iconPath": "images/icon_component.png",
-      "selectedIconPath": "images/icon_component_HL.png",
+      "iconPath": "dist/images/icons/people.png",
+      "selectedIconPath": "dist/images/icons/people@active.png",
       "text": "吃友"
     }, {
       "pagePath": "pages/group/group",
-      "iconPath": "images/icon_component.png",
-      "selectedIconPath": "images/icon_component_HL.png",
+      "iconPath": "dist/images/icons/add.png",
+      "selectedIconPath": "dist/images/icons/add@active.png",
       "text": "发布邀请"
     }, {
       "pagePath": "pages/group/group",
-      "iconPath": "images/icon_component.png",
-      "selectedIconPath": "images/icon_component_HL.png",
-      "text": "吃圈"
+      "iconPath": "dist/images/icons/message.png",
+      "selectedIconPath": "dist/images/icons/message@active.png",
+      "text": "消息"
     }, {
       "pagePath": "pages/center/center",
-      "iconPath": "images/icon_component.png",
-      "selectedIconPath": "images/icon_component_HL.png",
-      "text": "个人中心"
+      "iconPath": "dist/images/icons/home.png",
+      "selectedIconPath": "dist/images/icons/home@active.png",
+      "text": "我"
     }]
   }
 }

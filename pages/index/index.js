@@ -4,11 +4,10 @@ var app = getApp()
 Page({
   data: {
     systemInfo: {},
-    motto: 'Hello World',
-    info: '今天中午·火锅',
     userInfo: {},
-    food: '日本料理'
+    invitations: {}
   },
+  
   //事件处理函数
   invitationClick: function() {
     wx.navigateTo({
@@ -20,15 +19,27 @@ Page({
       url: '../logs/logs'
     })
   },
-  onLoad: function (options) {
-    console.log('onLoad')
+
+  //数据处理
+  loadData: function() {
     var that = this
+    
+    that.setData({
+      invitations: app.backendData.Invitation.index()
+    })
+  },
+
+
+  onLoad: function (options) {
+    var that = this
+
     //调用应用实例的方法获取系统数据
     app.getSystemInfo(function(res) {
       that.setData({
         systemInfo: res
       })
     })
+
     //调用应用实例的方法获取全局数据
     app.getUserInfo(function(userInfo){
       //更新数据
@@ -36,5 +47,8 @@ Page({
         userInfo:userInfo
       })
     })
+
+    //拉去服务器数据
+    that.loadData()
   }
 })
