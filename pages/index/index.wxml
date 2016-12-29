@@ -22,7 +22,7 @@
     </scroll-view>
   </view>
   <view class="container">
-    <view class="infoBox invitations">
+    <view class="infoBox invitations" hidden="{{!(invitations.list.length > 0)}}">
       <view class="infoBar">
         <view class="title">全部邀请</view>
       </view>
