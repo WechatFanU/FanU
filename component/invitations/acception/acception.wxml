@@ -1,0 +1,8 @@
+<template name="AcceptInvitation">
+    <view class="InvitationAcception">
+        <view class="mask"></view>
+        <view class="invitationContent">
+        	<div class="container"></div>
+        </view>
+    </view>
+</template>

@@ -9,8 +9,7 @@ App({
 
     // 获取用户信息
     this.getUserInfo()
-    //初始化缓存
-    this.initStorage()
+    this.getSystemInfo()
   },
   getUserInfo:function(cb){
     var that = this

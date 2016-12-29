@@ -1,5 +1,6 @@
 <import src="../../component/invitations/special/special.wxml" />
 <import src="../../component/invitations/fullInfo/fullInfo.wxml" />
+<import src="../../component/invitations/acception/acception.wxml" />
 
 <import src="../../component/message/message.wxml" />
 <template is="message" data="{{message: message}}"/>
@@ -8,6 +9,7 @@
     <view class="loading">玩命加载中…</view>
 </block>
 <block wx:else>
+
   <view class="specialInivitations infoBox" hidden="{{!(invitations.special.length > 0)}}">
     <view class="container">
       <view class="infoBar">
@@ -29,4 +31,5 @@
       </view>
     </view>
   </view>
+  <!--template is="AcceptInvitation" /-->
 </block>

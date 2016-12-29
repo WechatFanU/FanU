@@ -1,5 +1,6 @@
 @import "../../component/invitations/special/special.wxss";
 @import "../../component/invitations/fullInfo/fullInfo.wxss";
+@import "../../component/invitations/acception/acception.wxss";
 
 /**index.wxss**/
 .infoBox {
