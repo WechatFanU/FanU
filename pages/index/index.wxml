@@ -1,4 +1,5 @@
 <import src="../../component/invitations/special/special.wxml"/>
+<import src="../../component/invitations/fullInfo/fullInfo.wxml"/>
 
 <!--index.wxml-->
 
@@ -11,43 +12,15 @@
   </view>
   <scroll-view class="items" scroll-x="true" scroll-left="80">
     <template is="specialInvitation" data="{{data: item}}" wx:for="{{invitations.special}}" wx:key="unique" />
-    <template is="specialInvitation" data="{{data: item}}" wx:for="{{invitations.special}}" wx:key="unique" />
   </scroll-view>
 </view>
 <view class="container">
-  <view class="infoBar invitations">
-    <view class="title">全部邀请</view>
+  <view class="infoBox invitations">
+    <view class="infoBar">
+      <view class="title">全部邀请</view>
+    </view>
     <view class="items">
-      <view class="invitation">
-        <view class="avatar">
-          <image class="avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-        </view>
-        <view class="info">
-          <view class="name">{{userInfo.nickName}}</view>
-          <view class="food">{{food}}</view>
-          <view class="des">我要约饭嘛嘛嘛嘛</view>
-        </view>
-      </view>
-      <view class="invitation">
-      </view>
-      <view class="invitation">
-      </view>
-      <view class="invitation">
-      </view>
-      <view class="invitation">
-      </view>
-      <view class="invitation">
-      </view>
-      <view class="invitation">
-      </view>
-      <view class="invitation">
-      </view>
-      <view class="invitation">
-      </view>
-      <view class="invitation">
-      </view>
-      <view class="invitation">
-      </view>
+      <template is="InvitationInfo" data="{{data: item}}" wx:for="{{invitations.list}}" wx:key="unique" />
     </view>
   </view>
 </view>
