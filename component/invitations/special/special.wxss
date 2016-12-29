@@ -21,6 +21,7 @@
 .specialInvitationBlock .name {
   font-size: 18px;
   font-weight: 600;
+  color: #2d2d2d;
 }
 .specialInvitationBlock .info {
   font-size: 14px;

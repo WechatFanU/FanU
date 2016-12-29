@@ -1,8 +1,18 @@
 <template name="InvitationInfo">
   <view class="InvitationInfoBlock" >
-    <image class="preview" src="{{data.avatar}}" background-size="cover"></image>
-    <view class="name">{{data.name}}</view>
-    <view class="info">{{data.time}} · {{data.foodType}}</view>
-    <button class="action">查看详情</button>
+    <view class="top">
+      <image class="preview" src="{{data.avatar}}" background-size="cover"></image>
+      <view class="info">
+        <view class="person">
+          <view class="name">{{data.name}}</view>
+          <view class="food" wx:if="{{data.restaurant != null}}">{{data.restaurant.name}}</view>
+          <view class="food" wx:else>{{data.foodType}}</view>
+        </view>
+        <view class="mono">{{data.mono}}</view>
+      </view>
+    </view>
+    <view class="time">{{data.time}}</view>
+    <view class="location">{{data.location}}</view>
+    <button class="action">立即加入</button>
   </view>
 </template>
