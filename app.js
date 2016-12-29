@@ -6,6 +6,11 @@ App({
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
+
+    // 获取用户信息
+    this.getUserInfo()
+    //初始化缓存
+    this.initStorage()
   },
   getUserInfo:function(cb){
     var that = this
@@ -38,8 +43,7 @@ App({
       })
     }
   },
-
-  globalData:{
+  globalData: {
     userInfo: null,
     systemInfo: null
   },

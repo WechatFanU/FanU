@@ -1,27 +1,32 @@
-<import src="../../component/invitations/special/special.wxml"/>
-<import src="../../component/invitations/fullInfo/fullInfo.wxml"/>
+<import src="../../component/invitations/special/special.wxml" />
+<import src="../../component/invitations/fullInfo/fullInfo.wxml" />
 
-<!--index.wxml-->
+<import src="../../component/message/message.wxml" />
+<template is="message" data="{{message: message}}"/>
 
-<view class="specialInivitations infoBox" hidden="{{!(invitations.special.length > 0)}}">
+<block wx:if="{{showLoading}}">
+    <view class="loading">玩命加载中…</view>
+</block>
+<block wx:else>
+  <view class="specialInivitations infoBox" hidden="{{!(invitations.special.length > 0)}}">
+    <view class="container">
+      <view class="infoBar">
+        <view class="title">特别邀请</view>
+        <button class="more">查看更多</button>
+      </view>
+    </view>
+    <scroll-view class="items" scroll-x="true" scroll-left="80">
+      <template is="specialInvitation" data="{{data: item}}" wx:for="{{invitations.special}}" wx:key="unique" />
+    </scroll-view>
+  </view>
   <view class="container">
-    <view class="infoBar">
-      <view class="title">特别邀请</view>
-      <button class="more">查看更多</button>
+    <view class="infoBox invitations">
+      <view class="infoBar">
+        <view class="title">全部邀请</view>
+      </view>
+      <view class="items">
+        <template is="InvitationInfo" data="{{data: item}}" wx:for="{{invitations.list}}" wx:key="unique" />
+      </view>
     </view>
   </view>
-  <scroll-view class="items" scroll-x="true" scroll-left="80">
-    <template is="specialInvitation" data="{{data: item}}" wx:for="{{invitations.special}}" wx:key="unique" />
-  </scroll-view>
-</view>
-<view class="container">
-  <view class="infoBox invitations">
-    <view class="infoBar">
-      <view class="title">全部邀请</view>
-    </view>
-    <view class="items">
-      <template is="InvitationInfo" data="{{data: item}}" wx:for="{{invitations.list}}" wx:key="unique" />
-    </view>
-  </view>
-</view>
-
+</block>

@@ -25,7 +25,7 @@ var Invitations = {
           showLoading: false
         })
         message.show.call(that,{
-          content: '网络开小差了',
+          content: '呀！掉线了',
           icon: 'offline',
           duration: 3000
         })
