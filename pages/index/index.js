@@ -3,7 +3,6 @@
 var app = getApp()
 Page({
   data: {
-    systemInfo: {},
     userInfo: {},
     invitations: {}
   },
@@ -24,31 +23,25 @@ Page({
   loadData: function() {
     var that = this
     
-    that.setData({
-      invitations: app.backendData.Invitation.index()
-    })
+    app.backendData.Invitations.list.call(this)
   },
 
 
   onLoad: function (options) {
     var that = this
-
-    //调用应用实例的方法获取系统数据
-    app.getSystemInfo(function(res) {
-      that.setData({
-        systemInfo: res
-      })
-    })
-
-    //调用应用实例的方法获取全局数据
-    app.getUserInfo(function(userInfo){
-      //更新数据
-      that.setData({
-        userInfo:userInfo
-      })
-    })
+    wx.showNavigationBarLoading()
 
     //拉去服务器数据
     that.loadData()
+    wx.hideNavigationBarLoading()
+  },
+
+  onPullDownRefresh: function() {
+    var that = this
+    that.setData({
+      userInfo: {},
+      invitations: {}
+    })
+    this.onLoad()
   }
 })

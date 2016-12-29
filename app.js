@@ -1,4 +1,4 @@
-var Data = require('api.js')
+var Data = require('scripts/fetch.js')
 
 App({
   onLaunch: function () {
@@ -44,5 +44,5 @@ App({
     systemInfo: null
   },
 
-  backendData: Data.BackendData
+  backendData: Data
 })
