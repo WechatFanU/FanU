@@ -1,0 +1,29 @@
+.content {
+    background-color: #fff;
+    width: 100%;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    padding: 0 14px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+.content .section {
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e5e5e5;
+}
+.content .section .title {
+    flex: 1;
+}
+.content .section input {
+    flex: 3;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.content .section textarea {
+    font-size: 14px;
+    font-weight: lighter;
+    flex: 3;
+}
