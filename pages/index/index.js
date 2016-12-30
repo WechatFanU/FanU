@@ -4,7 +4,24 @@ var app = getApp()
 Page({
   data: {
     userInfo: {},
-    invitations: {}
+    invitations: {},
+    showInvitationDetail: false,
+    acception: {
+      user: {
+        name: "",
+        avatar: ""
+      },
+      mono: "",
+      time: "",
+      location: "",
+      restaurant: {
+        name: ""
+      },
+      foodType: "",
+      maxSumOfPeople: "",
+      attendances: [
+      ]
+    }
   },
   
   //事件处理函数
@@ -40,7 +57,24 @@ Page({
     var that = this
     that.setData({
       userInfo: {},
-      invitations: {}
+      invitations: {},
+      showInvitationDetail: false,
+      acception: {
+        user: {
+          name: "",
+          avatar: ""
+        },
+        mono: "",
+        time: "",
+        location: "",
+        restaurant: {
+          name: ""
+        },
+        foodType: "",
+        maxSumOfPeople: "",
+        attendances: [
+        ]
+      }
     })
     this.onLoad()
   }

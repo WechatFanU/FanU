@@ -1,9 +1,9 @@
 {
   "pages":[
     "pages/index/index",
+    "pages/new/new",
     "pages/logs/logs",
-    "pages/center/center",
-    "pages/new/new"
+    "pages/center/center"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -31,7 +31,7 @@
       "selectedIconPath": "dist/images/icons/people@active.png",
       "text": "吃友"
     }, {
-      "pagePath": "pages/group/group",
+      "pagePath": "pages/new/new",
       "iconPath": "dist/images/icons/add.png",
       "selectedIconPath": "dist/images/icons/add@active.png",
       "text": "发布邀请"

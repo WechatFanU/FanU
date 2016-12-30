@@ -1,39 +1,39 @@
 <template name="AcceptInvitation">
-    <view class="InvitationAcception">
+    <view class="InvitationAcception" hidden="{{!showDetail}}">
         <view class="mask"></view>
         <view class="invitationContent">
         	<view class="container">
         		<view class="userInfo">
-        			<image class="avatar" src="https://ruby-china-files.b0.upaiyun.com/user/avatar/9162.jpg!lg" />
-        			<text class="name">瑄瑄</text>
+        			<image class="avatar" src="{{data.user.avatar}}" />
+        			<text class="name">{{data.user.name}}</text>
         			<text class="action">邀请你一起聚餐</text>
         		</view>
         		<view class="monoArea">
         			<view class="leftMono">“</view>
-        			<text class="mono">我就是想约个饭啊，我就是想约个饭啊。我就是想约个饭啊，我就是想约个饭啊。我就是想约个饭啊，我就是想约个饭啊。</text>
+        			<text class="mono">{{data.mono}}</text>
         			<view class="rightMono">”</view>
         		</view>
         		<view class="mainInfo">
         			<view class="infoGroup">
         				<text class="attr">时间</text>
-        				<text class="val">1月1日中午 12:30</text>
+        				<text class="val">{{data.time}}</text>
         			</view>
         			<view class="infoGroup">
         				<text class="attr">地区</text>
-        				<text class="val">蓝色港湾</text>
+        				<text class="val">{{data.location}}</text>
         			</view>
         			<view class="infoGroup">
         				<text class="attr">餐厅</text>
-        				<text class="val">和乐日本料理</text>
+        				<text class="val">{{data.restaurant.name}}</text>
         			</view>
         			<view class="infoGroup">
         				<text class="attr">人数</text>
-        				<text class="val">3 ~ 5人</text>
+        				<text class="val">{{data.maxSumOfPeople}}</text>
         			</view>
-        			<view class="infoGroup">
+        			<!--view class="infoGroup">
         				<text class="attr">参与</text>
-        				<text class="val">张玥、叶子… 等5人</text>
-        			</view>
+        				<text class="val">{{(data.attendances.length > 2) ? (data.attendances.join("、")) : (' 暂时还没有小伙伴参与')}}</text>
+        			</view-->
         		</view>
         		<button class="full-size">接受邀请</button>
         		<icon type="close" size="30" color="black"/>

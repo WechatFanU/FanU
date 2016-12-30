@@ -32,12 +32,11 @@ app.get('/invitations/:id', function(req, res) {
       },
       foodType: "日本料理",
       maxSumOfPeople: "3 ~ 5 人",
-      attendance: [
-        {name: "张玥"},
-        {name: "叶子"},
-        {name: "孙鼎"},
-        {name: "王思聪"},
-        {name: "何天明"}
+      attendances: [
+        "张玥",
+        "叶子",
+        "孙鼎",
+        "何天明"
       ]
     };
     res.json(respond);

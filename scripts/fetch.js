@@ -47,6 +47,7 @@ var Invitations = {
         console.log(res)
         that.setData({
           showLoading: false,
+          showInvitationDetail: true,
           acception: res.data
         })
         wx.stopPullDownRefresh()

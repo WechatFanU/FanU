@@ -1,0 +1,30 @@
+<form bindsubmit="invitationSubmit">
+    <view class="content">
+        <view class="section">
+            <view class="title">时间</view>
+            <input name="input" placeholder="暂时先是手写的时间" auto-focus/>
+        </view>
+        <view class="section">
+            <view class="title">地点</view>
+            <input name="input" placeholder="中国传媒大学" auto-focus/>
+        </view>
+        <view class="section">
+            <view class="title">人数</view>
+            <input name="input" placeholder="随便吧" auto-focus/>
+        </view>
+        <view class="section">
+            <view class="title">截止时间</view>
+            <input name="input" placeholder="你看着来吧" auto-focus/>
+        </view>
+        <view class="section">
+            <view class="title">描述</view>
+            <textarea auto-height placeholder="多少字合适呢" />
+        </view>
+        <checkbox-group bindchange="checkboxChange">
+            <label class="checkbox" wx:for="{{items}}" wx:key="unique">
+                <checkbox value="{{item.name}}" checked="{{item.checked}}"/>{{item.value}}
+            </label>
+        </checkbox-group>
+    </view>
+    <button class="full-size" formType="submit">发布邀请</button>
+</form>
