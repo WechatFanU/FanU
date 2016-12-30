@@ -21,6 +21,12 @@ button:after {
   border: none;
 }
 
+button.full-size {
+	width: 95%;
+	display: block;
+	margin: 0 auto;
+}
+
 .loading {
     position: fixed;
     left: 50%;

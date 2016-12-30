@@ -18,6 +18,31 @@ app
       };
       res.json(responds);
     });
+app.get('/invitations/:id', function(req, res) {
+    var respond = {
+      user: {
+        name: "瑄瑄",
+        avatar: "https://ruby-china-files.b0.upaiyun.com/user/avatar/9162.jpg!lg"
+      },
+      mono: "我就是想约个饭啊，我就是想约个饭啊。我就是想约个饭啊，我就是想约个饭啊。我就是想约个饭啊，我就是想约个饭啊。",
+      time: "1月1日中午 12:30",
+      location: "蓝色港湾",
+      restaurant: {
+        name: "和乐日本料理"
+      },
+      foodType: "日本料理",
+      maxSumOfPeople: "3 ~ 5 人",
+      attendance: [
+        {name: "张玥"},
+        {name: "叶子"},
+        {name: "孙鼎"},
+        {name: "王思聪"},
+        {name: "何天明"}
+      ]
+    };
+    res.json(respond);
+  });
+
 
 
 

@@ -31,5 +31,5 @@
       </view>
     </view>
   </view>
-  <!--template is="AcceptInvitation" /-->
+  <template is="AcceptInvitation" data="{{data: acception}}"/>
 </block>

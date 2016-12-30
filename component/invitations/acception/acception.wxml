@@ -2,7 +2,45 @@
     <view class="InvitationAcception">
         <view class="mask"></view>
         <view class="invitationContent">
-        	<div class="container"></div>
+        	<view class="container">
+        		<view class="userInfo">
+        			<image class="avatar" src="https://ruby-china-files.b0.upaiyun.com/user/avatar/9162.jpg!lg" />
+        			<text class="name">瑄瑄</text>
+        			<text class="action">邀请你一起聚餐</text>
+        		</view>
+        		<view class="monoArea">
+        			<view class="leftMono">“</view>
+        			<text class="mono">我就是想约个饭啊，我就是想约个饭啊。我就是想约个饭啊，我就是想约个饭啊。我就是想约个饭啊，我就是想约个饭啊。</text>
+        			<view class="rightMono">”</view>
+        		</view>
+        		<view class="mainInfo">
+        			<view class="infoGroup">
+        				<text class="attr">时间</text>
+        				<text class="val">1月1日中午 12:30</text>
+        			</view>
+        			<view class="infoGroup">
+        				<text class="attr">地区</text>
+        				<text class="val">蓝色港湾</text>
+        			</view>
+        			<view class="infoGroup">
+        				<text class="attr">餐厅</text>
+        				<text class="val">和乐日本料理</text>
+        			</view>
+        			<view class="infoGroup">
+        				<text class="attr">人数</text>
+        				<text class="val">3 ~ 5人</text>
+        			</view>
+        			<view class="infoGroup">
+        				<text class="attr">参与</text>
+        				<text class="val">张玥、叶子… 等5人</text>
+        			</view>
+        		</view>
+        		<button class="full-size">接受邀请</button>
+        		<icon type="close" size="30" color="black"/>
+        		<button class="close">
+        			
+        		</button>
+        	</view>
         </view>
     </view>
 </template>

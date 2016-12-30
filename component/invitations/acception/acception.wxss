@@ -10,3 +10,105 @@
 	bottom: 0;
 	background-color: rgba(238,238,238,.8);
 }
+
+.InvitationAcception .invitationContent {
+	position: fixed;
+	background-color: #fff;
+	top: 30rpx;
+	left: 30rpx;
+	right: 30rpx;
+	bottom: 30rpx;
+	border-radius: 5px;
+	box-shadow: 0 2px 4px rgba(0,0,0,.2);
+}
+
+.InvitationAcception .invitationContent .userInfo {
+	text-align: center;
+}
+
+.InvitationAcception .invitationContent .userInfo text {
+	display: block;
+	margin: 6px auto;
+}
+
+.InvitationAcception .invitationContent .userInfo .avatar {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	margin-top: 30px;
+}
+
+.InvitationAcception .invitationContent .userInfo .name {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.InvitationAcception .invitationContent .userInfo .action {
+	font-size: 14px;
+	font-weight: 300;
+	color: #FA4646;
+}
+
+.InvitationAcception .invitationContent .monoArea {
+	width: 100%;
+	display: flex;
+	margin-top: 16px;
+}
+
+.InvitationAcception .invitationContent .monoArea view {
+	width: 40px;
+	font-size: 35px;
+	vertical-align: middle;
+}
+
+.InvitationAcception .invitationContent .monoArea .leftMono {
+	text-align: left;
+}
+
+.InvitationAcception .invitationContent .monoArea .rightMono {
+	text-align: right;
+}
+
+.InvitationAcception .invitationContent .monoArea .mono {
+	flex: 1;
+	font-size: 14px;
+	margin: 0 5px;
+	line-height: 1.5;
+	vertical-align: middle;
+}
+
+.InvitationAcception .invitationContent .mainInfo {
+	margin-top: 10px;
+	margin-bottom: 36px;
+	width: 100%;
+}
+
+.InvitationAcception .mainInfo .infoGroup {
+	width: 100%;
+}
+
+.InvitationAcception .mainInfo .infoGroup text {
+	font-size: 20px;
+	display: inline-block;
+	vertical-align: baseline;
+	margin-top: 15px;
+}
+
+.InvitationAcception .mainInfo .infoGroup .attr {
+	width: 70px;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.InvitationAcception .mainInfo .infoGroup .val {
+	flex: 1;
+	color: #888888;
+}
+
+.InvitationAcception .invitationContent button.close {
+	display: block;
+	background-color: transparent;
+	width: 45px;
+	height: 45px;
+	color: #000;
+}
